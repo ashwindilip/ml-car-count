@@ -134,7 +134,7 @@ while cap.isOpened():
     # Write frame to output video
     out.write(frame_resized)
 
-# The final result is along with some other metrics
+# The final result along with some other metrics
 end_time = time.time()
 processing_time = end_time - start_time
 print(f"Processed {total_frames} frames in {processing_time:.2f} seconds")
